@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get '/templates/:path.html' => 'templates#templates', :constraints => { :path => /.+/  }
 
+  get '/*path' => 'templates#redirect'
+
 end

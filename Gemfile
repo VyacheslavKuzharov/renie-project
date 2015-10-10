@@ -42,6 +42,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rails_12factor'
+end
+
 gem 'haml-rails', '~> 0.9'
 gem "less-rails"
 gem "twitter-bootstrap-rails"
