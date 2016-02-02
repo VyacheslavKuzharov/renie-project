@@ -3,7 +3,8 @@
     "name": "bower-rails generated lib assets",
     "dependencies": {
        "angular"      : "latest",
-       "ui-router"  : "latest"
+       "ui-router"  : "latest",
+        "angular-translate" : "latest"
     }
   },
   "vendor": {
